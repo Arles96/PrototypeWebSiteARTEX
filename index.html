@@ -20,19 +20,22 @@
 </head>
 <body>
     <div>
-        <div class="col-sm-3 menu">
+        <div class="col-sm-3 menu nav navbar navbar-default">
             <div class="menu-bar">
+                <div>
+                    <label for="l-button" id="label-button"><img src="./img/menu.png" alt=""></label>
+                </div>
                 <div class="title">
                     <h1 class="animated bounceInLeft menu-title">ARTEX</h1>
                 </div>
                 <div>
-                    <ul class="nav nav-pills nav-stacked">
-                        <li class="animated bounceInLeft" role="presentation"><a href="#" class="text-menu">Inicio</a></li>
-                        <li class="animated bounceInLeft" role="presentation"><a href="#" class="text-menu">Productos</a> </li>
-                        <li class="animated bounceInLeft" role="presentation"><a href="#" class="text-menu">Eventos</a> </li>
-                        <li class="animated bounceInLeft" role="presentation"><a href="#" class="text-menu">Servicios</a> </li>
-                        <li class="animated bounceInLeft" role="presentation"><a href="#" class="text-menu">Contacto</a> </li>
-                        <li class="animated bounceInLeft" role="presentation"><a href="#" class="text-menu">Acerca de Nosotros</a> </li>
+                    <ul class="nav nav-pills nav-stacked" id="navigator">
+                        <li class="animated bounceInLeft" role="presentation"><a href="#inicio" class="text-menu">Inicio</a></li>
+                        <li class="animated bounceInLeft" role="presentation"><a href="#producto" class="text-menu">Productos</a> </li>
+                        <li class="animated bounceInLeft" role="presentation"><a href="#eventos" class="text-menu">Eventos</a> </li>
+                        <li class="animated bounceInLeft" role="presentation"><a href="#servicio" class="text-menu">Servicios</a> </li>
+                        <li class="animated bounceInLeft" role="presentation"><a href="#contacto" class="text-menu">Contactanos</a> </li>
+                        <li class="animated bounceInLeft" role="presentation"><a href="#nosotros" class="text-menu">Acerca de Nosotros</a> </li>
                     </ul>
                 </div>
             </div>
@@ -40,12 +43,15 @@
         <div class="col-sm-9 principal-section">
             <div>
                 <section class="section-company">
+                    <h2 class="principal-title"><b><a  name="inicio">Revela lo que hay dentro</a></b></h2>
+                    <br>
                     <img class="cover-page" src="./img/portada.jpg" alt="portada">
                 </section> 
             </div>
             <div>
                 <section class="section-company">
-                    <h2 class="title-section">Productos</h2>
+                    <h2 class="title-section"><b> <a name="producto">Productos.</a></b></h2>
+                    <hr>
                     <div class="container">
                         <div class="col-sm-6">
                             <img src="./img/producto1.jpg" alt="Producto1" class="div-img">
@@ -74,7 +80,8 @@
             </div>      
             <div>
                 <section class="section-company">
-                    <h2 class="title-section">Eventos</h2>
+                    <h2 class="title-section"><b><a name="eventos">Eventos.</a></b></h2>
+                    <hr>
                     <div>
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
@@ -107,11 +114,11 @@
                             <!-- Left and right controls -->
                             <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
+                                <span class="sr-only">Anterior</span>
                             </a>
                             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" ></span>
-                                <span class="sr-only">Next</span>
+                                <span class="sr-only">Siguiente</span>
                             </a>
                         </div>
                     </div>
@@ -119,7 +126,8 @@
             </div>
             <div>
                 <section class="section-company">
-                    <h2 class="title-section">Servicios</h2>
+                    <h2 class="title-section"> <b><a name="servicio">Servicios.</a></b></h2>
+                    <hr>
                     <div class="container">
                         <div class="col-sm-6">
                             <img src="./img/servicios.jpg" alt="Servivios" class="div-img">
@@ -143,7 +151,8 @@
             </div>
             <div>
                 <section class="section-company">
-                    <h2 class="title-section">Contactanos</h2>
+                    <h2 class="title-section"><b><a name="contacto">Contactanos.</a></b></h2>
+                    <hr>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Eum dignissimos sit nam nesciunt aliquam explicabo cum tempora quas 
@@ -171,12 +180,13 @@
             </div>
             <div>
                 <section class="section-company">
-                    <h2 class="title-section">Sobre Nosotros</h2>
+                    <h2 class="title-section"><b><a name="nosotros">Sobre Nosotros.</a></b></h2>
+                    <hr>
                     <div class="container">
-                        <div class="col-sm-8">
+                        <div class="col-lg-8">
                             <img src="./img/nosotros.jpg" alt="nosotros" class="about-us">
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-lg-4">
                             <h3>Visión</h3>
                             <p>
                                 Llegar a ser una empresa innovadora y lider en el rubro de los servicios

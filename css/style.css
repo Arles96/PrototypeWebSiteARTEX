@@ -5,7 +5,8 @@ body {
 /*Menu vertical*/
 .menu {
     background: rgb(105, 136, 250);
-    height: 100vh;
+    height: 100%;
+    margin-bottom: 0;
 }
 
 /*Titulo del Menu*/
@@ -16,7 +17,8 @@ body {
 }
 
 .menu-title {
-    font-size: 64px;
+    font-size: 50px;
+    font-weight: 700;   
 }
 
 /*Text del menu*/
@@ -48,7 +50,7 @@ body {
 
 /*Margenes para el menu*/
 .menu-bar {
-    margin-top: 10vh;
+    margin-top: 2vh;
 }
 /*Anchura de la portada principal*/
 .cover-page {
@@ -57,11 +59,12 @@ body {
 
 /*tamaño y padding para cada seccion principal*/
 .section-company{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding-top: 10vh;
     padding-right: 10vh;
     font-size: 16px;
+    text-align: left;
 }
 
 /*Titulo de una seccion*/
@@ -114,4 +117,52 @@ body {font-size:16px;}
 .about-us{
     widows: 90%;
     height: 320px;
+}
+
+hr{
+    border: 5px solid blue;
+    border-radius: 4px;
+    width: 50px;
+    margin: 20px 0;
+}
+
+.principal-title {
+    font-size: 64px;
+}
+
+#label-button {
+    display: none;
+    width: 72px;
+}
+
+#label-button:hover{
+    background: white;
+    cursor: pointer;
+}
+
+a{
+    color: rgb(105, 136, 250);
+}
+
+a:link{
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: rgb(105, 136, 250);
+    cursor: default;
+    
+}
+
+@media(max-width: 900px){
+
+    #label-button {
+        display: block;
+    }
+
+    #navigator {
+        margin-left: -70%;
+    }
+    
+
 }
